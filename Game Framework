@@ -22,7 +22,7 @@ gameDisplay = pygame.display.set_mode((display_width,display_height))
 # pygame.display.flip() Updates entire screen in flipbook style movement
 # pygame.display.update() Updates section of screen or entire screen if left blank (rendering flip useless)
 
-pygame.display.set_caption('Wiggly Boi')
+pygame.display.set_caption('My Game')
 
 clock = pygame.time.Clock()
 
@@ -65,7 +65,7 @@ def titleLoop():
 		gameDisplay.fill(black)
 		gameDisplay.fill(red, rect=[300, 400, 80, 40])
 		gameDisplay.fill(red, rect=[100, 400, 80, 40])
-		message_to_screen('The Black', white)
+		message_to_screen('My Game', white)
 		pygame.display.update()
 time.sleep(10)
 	
